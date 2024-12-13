@@ -5,7 +5,7 @@ tags:
   - provider/aws
 ---
 
-# Component: `glue`
+# Component: `glue-job`
 
 This component provisions Glue jobs.
 
