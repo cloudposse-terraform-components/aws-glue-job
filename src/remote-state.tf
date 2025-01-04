@@ -1,6 +1,6 @@
 module "glue_iam_role" {
   source  = "cloudposse/stack-config/yaml//modules/remote-state"
-  version = "1.5.0"
+  version = "1.8.0"
 
   component = var.glue_iam_component_name
 
@@ -9,7 +9,7 @@ module "glue_iam_role" {
 
 module "glue_job_s3_bucket" {
   source  = "cloudposse/stack-config/yaml//modules/remote-state"
-  version = "1.5.0"
+  version = "1.8.0"
 
   component = var.glue_job_s3_bucket_component_name
   bypass    = var.glue_job_s3_bucket_component_name == null
