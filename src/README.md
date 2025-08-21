@@ -8,7 +8,6 @@ tags:
 # Component: `glue-job`
 
 This component provisions Glue jobs.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -36,7 +35,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -121,12 +123,17 @@ components:
 | <a name="output_job_arn"></a> [job\_arn](#output\_job\_arn) | Glue job ARN |
 | <a name="output_job_id"></a> [job\_id](#output\_job\_id) | Glue job ID |
 | <a name="output_job_name"></a> [job\_name](#output\_job\_name) | Glue job name |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/glue/job) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-glue-job&utm_content=)
+
